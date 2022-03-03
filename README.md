@@ -6,6 +6,8 @@ Extends sass built-in functions with many useful functions.
 
 Add `sass-extend` to your scss project and import the modules you want to use using `@use`, just like sass native modules.
 
+> If you are using native sass modules within the same namespace, use an alias for `sass-extend` to prevent namespace conflicts.
+
 ## Modules
 
 These are the modules included in `sass-extend`.
