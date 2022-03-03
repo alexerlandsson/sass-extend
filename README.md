@@ -23,7 +23,7 @@ These are the modules included in _sass-extend_.
 `string.replace` replaces a substring in a string.
 
 ```scss
-string.replace($string, $search, $replace: '')
+string.replace($string, $search, $replace: "")
 ```
 
 The following example shows an example on how to use it.
