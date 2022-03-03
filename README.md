@@ -20,7 +20,7 @@ These are the modules included in _sass-extend_.
 
 #### replace
 
-`string.replace` replaces a substring in a string.
+Function used to replaces a substring in a string.
 
 ```scss
 string.replace($string, $search, $replace: "")
