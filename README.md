@@ -1,16 +1,16 @@
-# Sass extend
+# sass-extend
 
-Extends sass built-in functions with many useful functions.
+Extends sass built-in functions with additional useful functions.
 
 ## How to use
 
-Add `sass-extend` to your scss project and import the modules you want to use using `@use`, just like sass native modules.
+Add _sass-extend_ to your scss project and import the modules you want to use using `@use`, just like sass native modules.
 
-> If you are using native sass modules within the same namespace, use an alias for `sass-extend` to prevent namespace conflicts.
+> If you are using native sass modules within the same namespace, use an alias for _sass-extend_ to prevent namespace conflicts.
 
 ## Modules
 
-These are the modules included in `sass-extend`.
+These are the modules included in _sass-extend_.
 
 ### string
 
