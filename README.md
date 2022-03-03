@@ -26,7 +26,7 @@ These are the modules included in _sass-extend_.
 string.replace($string, $search, $replace: "")
 ```
 
-The following example shows an example on how to use it.
+The following snippet shows an example on how to use it.
 
 ```scss
 @use "sass-extend/string";
@@ -57,6 +57,8 @@ Function used to remove the unit from a _CSS_ value (number).
 ```scss
 math.strip-unit($number)
 ```
+
+The following snippet shows an example on how to use it.
 
 ```scss
 @use "sass-extend/math";
