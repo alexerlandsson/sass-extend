@@ -35,7 +35,7 @@ $string: "Lorem ipsum";
 $replaced-string: string.replace($string, "ipsum", "dolor sit"); // Lorem dolor sit
 ```
 
-To use with unquoted strings you need to interpolate `$string`.
+To use with an unquoted string, you need to interpolate it.
 
 ```scss
 @use "sass-extend/string";
