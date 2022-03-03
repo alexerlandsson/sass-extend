@@ -1,0 +1,28 @@
+{
+  "name": "sass-extend",
+  "version": "1.0.0",
+  "description": "Extends sass built-in functions with many useful functions.",
+  "main": "index.js",
+  "scripts": {
+    "demo": "sass ./demo/demo.scss",
+    "prettier": "prettier --write .",
+    "stylelint": "stylelint '**/*.scss'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexerlandsson/sass-extend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexerlandsson/sass-extend/issues"
+  },
+  "homepage": "https://github.com/alexerlandsson/sass-extend#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9",
+    "stylelint": "^14.5.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^3.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+@use "../sass-extend/math";
+@use "../sass-extend/string";
+
+// Convert 16px into 16
+$value: 16px;
+@debug "Convert 16px into 16: #{math.strip-unit($value)}"; // 16
+
+// Replace string
+$string: "Lorem ipsum";
+@debug "Replace string: #{string.replace($string, " ipsum ", " dolor sit ")}"; // Lorem dolor sit
+
+// Replace unquoted string
+$hex: #f5f5f5;
+@debug 'Replace unquoted string: #{string.replace(#{$hex}, "#", "")}'; // f5f5f5
